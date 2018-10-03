@@ -6,9 +6,9 @@ def reformat_languages(languages)
   
   
   languages.each do |lang_type,lang|
-   binding.pry 
+   
     lang.each do |lang_sys|
-    
+     binding.pry
       new_hash[lang] = lang_sys 
       
     end
