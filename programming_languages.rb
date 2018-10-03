@@ -9,7 +9,7 @@ def reformat_languages(languages)
    
     lang.each do |lang_sys,type|
      #binding.pry
-      new_hash[lang_sys] = {type.key => type.values}
+      new_hash[lang_sys] = {type.keys => type.values}
       
     end
     
