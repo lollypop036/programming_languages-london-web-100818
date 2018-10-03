@@ -3,7 +3,11 @@ def reformat_languages(languages)
   new_hash = {}
   
   
-  languages.each do |obj_type|
+  languages.each do |lang_type,lang|
+    
+    lang.each do
+    
+  end
     
     
   
@@ -21,17 +25,7 @@ def reformat_languages(languages)
   
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
   
   
   
