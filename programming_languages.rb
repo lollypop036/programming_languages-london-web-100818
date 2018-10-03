@@ -5,7 +5,7 @@ def reformat_languages(languages)
   
   languages.each do |lang_type,lang|
     
-    languages.each do |lang_sys|
+    lang.each do |lang_sys|
     
       new_hash[lang] = lang_sys 
       
