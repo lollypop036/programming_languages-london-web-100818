@@ -7,10 +7,12 @@ def reformat_languages(languages)
     
     lang.each do
       
-      new_hash[]
+      new_hash[lang] = {}
+    end
     
   end
     
+    new_hash
     
   
   
